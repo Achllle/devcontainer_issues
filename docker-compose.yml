@@ -1,0 +1,10 @@
+services:
+  devcontainerissues:
+    image: devcontainerissues
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      FOO: bar
+      ROSCONSOLE_FORMAT: "[$${severity}] [$${walltime:%Y-%m-%d %H:%M:%S}] [$${node}]: $${message}"
+    command: sleep infinity

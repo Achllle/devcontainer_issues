@@ -1,0 +1,6 @@
+{
+	"dockerComposeFile": ["../docker-compose.yml"],
+    "workspaceFolder": "/",
+	"remoteUser": "root",
+	"service": "devcontainerissues"
+}
