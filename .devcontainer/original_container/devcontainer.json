@@ -1,0 +1,7 @@
+{
+    "dockerFile": "Dockerfile",
+    "workspaceFolder": "/",
+    "containerEnv": {
+        "ROSCONSOLE_FORMAT": "[$${severity}] [$${walltime:%Y-%m-%d %H:%M:%S}] [$${node}]: $${message}"
+    }
+}
